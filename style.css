@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(cube.png);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.REDtail {
+	background: url(redTailHor.png) no-repeat;
+	width: 254px;
+	height: 30px;
+}
+
+.GREENtail {
+	background: url(greenTailHor.png) no-repeat;
+	width: 254px;
+	height: 30px;
+}
+
+.YELLOWtail {
+	background: url(yellowTailHor.png) no-repeat;
+	width: 254px;
+	height: 30px;
+}
+
+.BLUEtail {
+	background: url(blueTailHor.png) no-repeat;
+	width: 254px;
+	height: 30px;
+}
+
+.horizontal-LR {
+	position: absolute;
+	left: -254px;
+	-webkit-transform: rotate(180deg);
+}
+
+.horizontal-RL {
+	position: absolute;
+	right: -245px;
+}
+
+.vertical-TB {
+	position: absolute;
+	top: -127px;
+	-webkit-transform: rotate(-90deg);
+}
+
+.vertical-BT {
+	position: absolute;
+	bottom: -127px;
+	-webkit-transform: rotate(90deg);
+}

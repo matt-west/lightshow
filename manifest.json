@@ -1,0 +1,11 @@
+{
+  "name": "LightShow New Tab Page",
+  "version": "0.1",
+  "description": "A plain text description",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+		"management"
+	]
+}
